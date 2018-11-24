@@ -22,7 +22,11 @@
                                 <rect key="frame" x="0.0" y="974" width="768" height="50"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Item" id="KeN-AV-Zmn"/>
+                                    <barButtonItem systemItem="action" id="KeN-AV-Zmn">
+                                        <connections>
+                                            <action selector="saveAction:" destination="BYZ-38-t0r" id="su2-eB-8nD"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3M2-hP-gL1">
